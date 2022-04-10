@@ -7,4 +7,6 @@ public interface ApiService {
 
     InfoDto convertAmount(String from, String to, double amount) throws CurrencyExchangeException;
 
+    void clearCache();
+
 }
