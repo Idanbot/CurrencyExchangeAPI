@@ -11,8 +11,8 @@ Response is in JSON:
 {
   "fromCurrency" : "string",
    "toCurrency" : "string",
-   "amount" : "double",
-   "result" : "double"
+   "amount" : number,
+   "result" : number
 }
 ```
    
